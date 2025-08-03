@@ -69,7 +69,6 @@ export default function Home() {
                 alt='linkedin'
                 width={26}
                 height={26}
-                className=""
               />
               <a href="https://linkedin.com/in/oujisan"
                 target="_blank"
