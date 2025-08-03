@@ -58,7 +58,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 aria-label="GitHub"
               >
-                <p className="underline underline-offset-4 font-light text-[var(--color-text-dim)] hover:text-[var(--color-accent-blue)]">
+                <p className="underline underline-offset-4 font-light text-sm md:text-base text-[var(--color-text-dim)] hover:text-[var(--color-accent-blue)]">
                   github.com/oujisan
                 </p>
               </a>
@@ -69,13 +69,14 @@ export default function Home() {
                 alt='linkedin'
                 width={26}
                 height={26}
+                className=""
               />
               <a href="https://linkedin.com/in/oujisan"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
               >
-                <p className="underline underline-offset-4 font-light text-[var(--color-text-dim)] hover:text-[var(--color-accent-blue)]">
+                <p className="underline underline-offset-4 font-light text-sm md:text-base  text-[var(--color-text-dim)] hover:text-[var(--color-accent-blue)]">
                   linkedin.com/in/oujisan
                 </p>
               </a>
@@ -92,7 +93,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 aria-label="Email"
               >
-                <p className="underline underline-offset-4 font-light text-[var(--color-text-dim)] hover:text-[var(--color-accent-blue)]">
+                <p className="underline underline-offset-4 font-light text-sm md:text-base text-[var(--color-text-dim)] hover:text-[var(--color-accent-blue)]">
                   oujisan.main@gmail.com
                 </p>
               </a>
@@ -133,12 +134,12 @@ export default function Home() {
             alt='ctf'
             width={100}
             height={100}
-            className="h-30 w-auto"
+            className="h-20 md:h-30 w-auto"
           />
-          <h2 className="text-2xl">
+          <h2 className="text-xl md:text-2xl text-center text-wrap">
             Solving CTF Challange
           </h2>
-          <p className="text-[var(--color-text-dim)] text-base text-center">
+          <p className="text-[var(--color-text-dim)] text-sm md:text-base text-center">
             Solve security challenges like web exploits and digital forensics, and document them through write-ups for learning and sharing.
           </p>
         </div>
@@ -148,12 +149,12 @@ export default function Home() {
             alt='code'
             width={100}
             height={100}
-            className="h-30 w-auto"
+            className="h-20 md:h-30 w-auto"
           />
-          <h2 className="text-2xl">
+          <h2 className="text-xl md:text-2xl text-center text-wrap">
             Build Mobile & Web App
           </h2>
-          <p className="text-[var(--color-text-dim)] text-base text-center">
+          <p className="text-[var(--color-text-dim)] text-sm md:text-base text-center">
             Crafting modern and scalable apps for both web and mobile, using TypeScript, React, Next.js, and Flutter.
           </p>
         </div>
@@ -163,13 +164,13 @@ export default function Home() {
             alt='ctf'
             width={100}
             height={100}
-            className="h-30 w-auto"
+            className="h-20 md:h-30 w-auto"
           />
-          <h2 className="text-2xl">
+          <h2 className="text-xl md:text-2xl text-center text-wrap">
             Exploring the Backstage
           </h2>
-          <p className="text-[var(--color-text-dim)] text-base text-center">
-            Curious about what&apos;s happening behind the interface. How logic flows, systems connect, and code quietly makes things work.
+          <p className="text-[var(--color-text-dim)] text-sm md:text-base text-center">
+            Curious about behind the interface. How logic flows, systems connect, and code quietly makes things work.
           </p>
         </div>
       </section>
